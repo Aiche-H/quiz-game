@@ -27,4 +27,4 @@ Kiitos kaikille osallistujille! Oli hauska ilta!
 * **Päivämäärä:** 2024-11-17
 * **Osallistujat:**
   * [Aiche-H](https://github.com/Aiche-H)
-  * [henhells14](https://gist.github.com/henhells14)
+  * [henhells14](https://github.com/henhells14)
