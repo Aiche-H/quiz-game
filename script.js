@@ -1,7 +1,6 @@
 // Import the QUESTIONS array from the questions.js file
 import { QUESTIONS } from "./questions.js";
 
-
 // wait for each dom element to be loaded first
 document.addEventListener("DOMContentLoaded", () => {
   // Get a reference to the quiz container element
@@ -58,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
     RANDOM_QUESTIONS.forEach((QUESTION, INDEX) => {
       // get the selected answer for the question
       const SELECTED_ANSWER = document.querySelector(
-        `input[name="question-${INDEX}"]:checked`
+        `input[name="question-${INDEX}"]:checked`,
       );
       // Check if the selected answer is correct
       if (SELECTED_ANSWER && SELECTED_ANSWER.value === QUESTION.answer) {
